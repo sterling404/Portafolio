@@ -839,3 +839,26 @@ body.claro .pie {
     left: -1.4rem;
   }
 }
+.gracias h1{
+  color: green;
+}
+.gracias{
+  display: grid;
+  place-items: center;
+
+}
+.gracias p{
+  color: #fff;
+  font-size: 15px;
+  text-align: unset;
+}
+#v{
+  font-size: 3rem;
+  background: grey;
+  color: var(--color7);
+  border-radius: 50%;
+  
+}
+.gracias p a{
+  color: #6bef06;
+}

@@ -38,11 +38,3 @@ if(localStorage.getItem('modo')==='true'){
     document.body.classList.remove('claro');
     btnSwitch.classList.remove("active");
 }
-document.querySelector('form')
-if(addEventListener('submit')){
-    alert("gracias por llenar el formulario")
-}
-
-function avisos(){
-    window.alert('Gracias por completar este formulario')
-}

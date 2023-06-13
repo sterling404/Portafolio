@@ -509,6 +509,7 @@ body.claro .secionservicios div a {
 
 body.claro .formulario textarea {
   border: 3px var(--color2) solid;
+  color: var(--color1);
   
 }
 .formulario input, .formulario textarea {

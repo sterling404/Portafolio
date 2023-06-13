@@ -498,9 +498,7 @@ body.claro .secionservicios div a {
   min-width: 1rem;
   resize: none;
 }
-body.claro .formulario input, body.claro .formulario textarea {
-  color: var(--color1);
-}
+
 
 .formulario input {
   height: 35%;
@@ -528,7 +526,9 @@ body.claro .formulario input, body.claro .formulario textarea {
 }
 
 
-
+body.claro .formulario input, body.claro .formulario textarea {
+  color: var(--color1);
+}
 
 body.claro .formulario h3 {
   color: var(--color4);

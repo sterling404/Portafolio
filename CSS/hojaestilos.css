@@ -496,6 +496,8 @@ body.claro .secionservicios div a {
   min-width: 1rem;
   resize: none;
 }
+
+
 body.claro .formulario input, body.claro .formulario textarea {
   color: var(--color1);
 }

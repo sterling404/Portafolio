@@ -885,3 +885,28 @@ body.claro .pie {
 .gracias p a{
   color: #6bef06;
 }
+
+.btn_wsp{
+  position: fixed;
+  height: 6rem;
+  width: 6rem;
+  line-height: 6.5rem;
+  font-size: 3rem;
+  color: var(--color9);
+  background: var(--color7);
+  border-radius: 50px;
+  text-align: center;
+  place-items: center;
+  align-content: center;
+  right: 30px;
+  bottom: 25px;
+  box-shadow: 0 0 1.5rem var(--color12);
+  z-index: 100;
+}
+body.claro .btn_wsp{
+  color: var(--color1);
+  box-shadow: 0 0 1.5rem var(--color3);
+}
+.btn_wsp:hover{
+  background: var(--color5);
+}

@@ -29,19 +29,7 @@
   --color_tar:linear-gradient(90deg,#ff3c5f,#260e69);
 }
 /*empesamos*/
-.proyecto1{
-  text-align: center;
-  margin-bottom: 2rem;
-  margin-top: 4rem;
-}
-.proyecto1 h1{
-  color: var(--color7);
-  width: 600;
-  font-size: 3.5rem;
-}
-.proyecto1 h1 span{
-  color: var(--color9);
-}
+
 body.claro{
   background: #f1f1f1 ;
   transition: all 0.3s ease;
@@ -63,9 +51,7 @@ body.claro .cuerpo00 h3{
 body.claro div h1 {
   color: var(--color11);
 }
-body.claro span {
-  color: var(--color4);
-}
+
 body.claro .switch::after{
   content: "";
   display: block;
@@ -88,7 +74,7 @@ body.claro .infor1{
 
 body {
   background: var(--color2);
-  height: 100vh;
+ 
 }
 
 #check {
@@ -187,7 +173,23 @@ body.claro .active1::after{
   justify-content: space-around;
   grid-template-columns: 50% 45%;
 }
-
+.proyecto1{
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+  align-items: center;
+}
+.proyecto1 h1{
+  color: var(--color7);
+  width: 600;
+  font-size: 3.5rem;
+}
+.proyecto1 h1 span{
+  color: var(--color9);
+}
+body.claro span {
+  color: var(--color4);
+}
 .cuerpo00 h5 {
   font-size: 3.2rem;
   font-weight: 700;
@@ -496,8 +498,6 @@ body.claro .secionservicios div a {
   min-width: 1rem;
   resize: none;
 }
-
-
 body.claro .formulario input, body.claro .formulario textarea {
   color: var(--color1);
 }
@@ -508,10 +508,7 @@ body.claro .formulario input, body.claro .formulario textarea {
   border-radius: 10px;
   display: inline;
 }
-body.claro .formulario input, body.claro .formulario textarea {
-  border: 3px var(--color2) solid;
-  background: var(--color7);
-}
+
 body.claro .formulario textarea {
   border: 3px var(--color2) solid;
   
@@ -524,6 +521,10 @@ body.claro .formulario textarea {
   border: 3px var(--color9) solid;
   margin: 0.7rem 0;
   border-radius: 0.8rem;
+}
+body.claro .formulario input, body.claro .formulario textarea {
+  border: 3px var(--color2) solid;
+  background: var(--color7);
 }
 
 
@@ -887,7 +888,6 @@ body.claro .pie {
 .gracias p a{
   color: #6bef06;
 }
-
 .btn_wsp{
   position: fixed;
   height: 6rem;
